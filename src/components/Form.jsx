@@ -79,6 +79,7 @@ const Form = ({ sending, urlState, methodState, onSendRequest }) => {
         w="85%"  
         mb={4}  
         ml={16}
+        mt={4}
       >
         {/* Select Method */}
         <Select 

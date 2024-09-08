@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* <Form/>
       <RequestTabs/> */}
        <RequestPanel setResponse={setData} sendingState={[sending, setSending]} initialRequest={initialRequest} />
-       <ResponsePanel response={data} />
+       <ResponsePanel response={data}/>
     </>
   )
 }

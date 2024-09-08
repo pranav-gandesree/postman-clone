@@ -24,8 +24,7 @@ export default function ResponsePanel({ response }) {
   }
 
   return (
-    <div className="mt-3 text-gray-200">
-
+    <div className="m-6 mt-0 pl-3 text-gray-200">
       <div className="flex justify-between items-center gap-3 flex-wrap py-2.5 px-2">
         <h1 className="text-xl font-normal">Response</h1>
         <div className="flex items-center justify-between gap-1 text-sm">
