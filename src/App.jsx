@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import { ChakraProvider, extendTheme, ColorModeScript } from "@chakra-ui/react";
 import HomePage from "./pages/HomePage";
 
+
 const theme = extendTheme({
   config: {
     initialColorMode: "dark", // Default mode can be 'light' or 'dark'
@@ -11,6 +12,7 @@ const theme = extendTheme({
 
 
 function App() {
+
   return (
     <>
      <ChakraProvider  theme={theme}>

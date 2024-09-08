@@ -109,12 +109,11 @@ const RequestPanel = ({
   return (
     <>
     <Form
-         urlState={[URL, setURL]}
-         methodState={[method, setMethod]}
+          urlState={[URL, setURL]}  
+          methodState={[method, setMethod]} 
          sending={sending}
          onSendRequest={onSendRequest}
     />
-
 
     <RequestTabs
         queryParams={queryParams}

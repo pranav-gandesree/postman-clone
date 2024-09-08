@@ -3,6 +3,9 @@ import { Select, Input, Button, Flex } from '@chakra-ui/react';
 import ICON from "../assets/index";
 
 const Form = ({ sending, urlState, methodState, onSendRequest }) => {
+  console.log('urlState:', urlState);  
+  console.log('methodState:', methodState);
+
   const [URL, setURL] = urlState;  
   const [method, setMethod] = methodState;
 
