@@ -108,13 +108,13 @@ const RequestPanel = ({
 
   return (
     <>
+    <div className="m-4">
     <Form
           urlState={[URL, setURL]}  
           methodState={[method, setMethod]} 
-         sending={sending}
-         onSendRequest={onSendRequest}
-    />
-
+          sending={sending}
+          onSendRequest={onSendRequest}
+          />
     <RequestTabs
         queryParams={queryParams}
         setQueryParams={setQueryParams}
@@ -122,7 +122,8 @@ const RequestPanel = ({
         setHeaders={setHeaders}
         body={initialBody}
         setBody={setBody}
-      />
+        />
+        </div>
     </>
   );
 };

@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import RequestPanel from "../components/Request/RequestPanel";
+import ResponsePanel from "../components/Response/ResponsePanel";
 
 const HomePage = () => {
   const [initialRequest, setInitialRequest] = useState(null)
@@ -16,7 +17,7 @@ const HomePage = () => {
       {/* <Form/>
       <RequestTabs/> */}
        <RequestPanel setResponse={setData} sendingState={[sending, setSending]} initialRequest={initialRequest} />
-       {/* <Response response={data} /> */}
+       <ResponsePanel response={data} />
     </>
   )
 }

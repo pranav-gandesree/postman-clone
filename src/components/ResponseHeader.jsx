@@ -20,10 +20,10 @@ export default function ResponseHeader({ panelValue }) {
   const headers = Object.entries(panelValue || {}).map(
     ([key, value], index) => {
       return (
-        <TableRow key={index} sx={rowStyle}>
+        <Tr key={index} sx={rowStyle}>
           <Td>{key}</Td>
           <Td>{value}</Td>
-        </TableRow>
+        </Tr>
       );
     }
   );

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '@chakra-ui/react'
+import ICON from '../assets/index.jsx'
 
 const KeyValuesInput = ({ row, updateRow, removeRow }) => {
   return (
@@ -29,7 +30,7 @@ const KeyValuesInput = ({ row, updateRow, removeRow }) => {
           theme="warning"
           size="sm"
         >
-          {/* <ICON.Delete /> */}DELETE
+          <ICON.Delete />
         </Button>
       </div>
     </div>
