@@ -29,7 +29,7 @@ export default function ResponseHeader({ panelValue }) {
   );
 
   return (
-    <TableContainer className="rounded-lg border border-white/5 bg-white/5">
+    <TableContainer className="rounded-lg border border-white/5 bg-white/5 ">
       <Table aria-label="simple table">
         <Thead>
           <Tr sx={{ "& th" : { color : "white" } }}>
